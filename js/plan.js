@@ -74,6 +74,7 @@ function day() {
             return "piatek"
     }
 }
+
 let weekday = day()
 function updateTimetable() {
     for (let i = 0; i < parseInt(lessionNameBoxes.length); i++){
