@@ -61,7 +61,7 @@ plan = {
 const lessionNameBoxes = document.getElementsByClassName("lession-name")
 
 function day() {
-    switch (new Date().getDay()) {
+    switch (new Date("2025-02-07").getDay()) {
         case 1:
             return "poniedzialek"
         case 2:
