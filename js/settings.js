@@ -6,7 +6,7 @@ const SettingsWindow = {
     cooldown: false,
     isShowed: false,
     showSettingsWindow: function() {
-        this.cooldown = truedwadwadwa
+        this.cooldown = true
         settingswindow.style.transform = "translateY(0)"
         this.isShowed = true
         setTimeout(() => {
@@ -77,4 +77,4 @@ settings.addEventListener("click", () => {
 
 colorPannels[0].addEventListener("change", Settings.changeBackgraundColor1)
 colorPannels[1].addEventListener("change", Settings.changeBackgraundColor2)
-colorPannels[2].addEventListener("change", Settings.changeLineBackgraundColor)
+colorPannels[2  ].addEventListener("change", Settings.changeLineBackgraundColor)

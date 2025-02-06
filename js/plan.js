@@ -1,4 +1,4 @@
-wdwadawdplan = {
+plan = {
     poniedzialek: [
         "Język angielski",
         "Pracownia apl. int.",
