@@ -6,7 +6,7 @@ const SettingsWindow = {
     cooldown: false,
     isShowed: false,
     showSettingsWindow: function() {
-        this.cooldown = true
+        this.cooldown = truedwadwadwa
         settingswindow.style.transform = "translateY(0)"
         this.isShowed = true
         setTimeout(() => {
