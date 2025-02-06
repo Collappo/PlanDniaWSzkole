@@ -38,16 +38,16 @@ plan = {
         "Matematyka",
         "Podstawy programowania",
         "Historia",
-        "Programowanie apl. int.",
-        "Projektowanie i admin. baz. dan.",
+        "Program. apl. int.",
+        "Projekt. i admin. baz. dan.",
         "Język polski",
         "Fizyka",
         "Zajęcia z wychowawcą"
     ],
     
     piatek: [
-        "Projektowanie oprogramowania",
-        "Projektowanie oprogramowania",
+        "Projektowanie. oprog.",
+        "Projekowanie. oprog.",
         "Pracownia podst. prog.",
         "Pracownia podst. prog.",
         "Język niemiecki",
@@ -74,7 +74,6 @@ function day() {
             return "piatek"
     }
 }
-
 let weekday = day()
 function updateTimetable() {
     for (let i = 0; i < parseInt(lessionNameBoxes.length); i++){
