@@ -1,6 +1,6 @@
 plan = {
     poniedzialek: [
-        "Język angielski",
+        "",
         "Pracownia apl. int.",
         "Pracownia apl. int.",
         "Biologia",
@@ -18,29 +18,29 @@ plan = {
         "Wf",
         "Podstawy programowania",
         "Matma",
-        "",
+        "Historia i teraz.",
         ""
     ],
     sroda: [
         "Informatyka",
         "Pracownia proj. oprog.",
-        "Programowanie apl. int.",
+        "Język angielski",
         "Matematyka",
         "Język polski",
         "Biologia",
-        "Historia i teraźniejszość",
+        "Programowanie apl. int.",
         "Pracownia baz danych",
         ""
     ],
     
     czwartek: [
         "",
-        "Matematyka",
+        "Język polski",
         "Podstawy programowania",
         "Historia",
         "Program. apl. int.",
         "Projekt. i admin. baz. dan.",
-        "Język polski",
+        "Historia",
         "Fizyka",
         "Zajęcia z wychowawcą"
     ],
