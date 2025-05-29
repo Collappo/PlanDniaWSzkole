@@ -60,21 +60,7 @@ plan = {
 
 const lessionNameBoxes = document.getElementsByClassName("lession-name")
 
-function day() {
-    switch (new Date().getDay()) {
-        case 1:
-            return "poniedzialek"
-        case 2:
-            return "wtorek"
-        case 3:
-            return "sroda"
-        case 4:
-            return "czwartek"
-        case 5:
-            return "piatek"
-    }
-}
-let weekday = day()
+let weekday = new Date().getDay() - 1
 function updateTimetable() {
     for (let i = 0; i < parseInt(lessionNameBoxes.length); i++){
         lessionNameBoxes[i].innerHTML = plan[weekday][i]
