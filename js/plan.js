@@ -75,7 +75,6 @@ function day() {
     }
 }
 let weekday = day()
-let weekday = new Date().getDay() - 1
 function updateTimetable() {
     for (let i = 0; i < parseInt(lessionNameBoxes.length); i++){
         lessionNameBoxes[i].innerHTML = plan[weekday][i]
@@ -83,3 +82,4 @@ function updateTimetable() {
 }
 
 updateTimetable()
+
